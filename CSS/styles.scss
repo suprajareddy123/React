@@ -1,0 +1,53 @@
+#app {
+  font-family: 'Open Sans', sans-serif;
+    background-color: dodgerblue;
+  width: auto;
+  height: 800px;
+  
+  .table {
+    margin: 1em 1em;
+    display: flex;
+    
+    flex-direction: column;
+        background-color: white;
+    
+    .header, .row {
+      display: flex;
+       border-bottom: 1px solid grey;
+      span{
+        display:flex;
+      }  
+      .red{
+        color:red;
+      }
+      .green{
+        color:green;
+      }
+      .account {
+        color:blue;
+      }
+      
+      div {
+        flex: 1;
+        padding: 0.2rem 0.4em;
+        height:50px;
+      }
+    }
+    
+    .header {
+      background-color: rgb(238, 238, 238);
+      div { 
+        cursor: pointer;
+      }
+    }
+    .body {
+      button{
+        display: block;
+       font-size: 2em;
+        color:blue;
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
